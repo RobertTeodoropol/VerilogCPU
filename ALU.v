@@ -1,0 +1,42 @@
+
+module ALU(R2,R3,m,OP,R1,flags, insta);
+
+  parameter size=16;
+  input [15:0] R2,R3;
+  input [3:0] m;
+  input [3:0] OP;
+  input [15:0] insta;
+  output [15:0] R1;
+  output [3:0] flags;
+  wire [15:0] ADD_result, SUB, MULT, OR, AND_result, XOR, RS, LS, RR;
+  wire [3:0] add_flag, cmp_flag;
+
+
+
+Add #(size) ALU0(R2, R3, ADD_result, add_flag);
+Subtract #(size) ALU1( R2, R3, SUB);
+MULT #(size) ALU2(R2, R3, MULT);
+
+parameterized_bitwise_or #(size) ALU3(R2,R3,OR);
+
+AND #(size) ALU4 (R2, R3, AND_result);
+
+XOR #(size) ALU5(R2, R3, XOR);
+
+shiftRight ALU6(R2, m, RS);
+
+shiftLeft ALU7(R2, m, LS);
+
+Parameterized_ROR #(size) ALU8(R2, m, RR);
+
+CMP #(size) ALU9(R2, R3, cmp_flag);
+
+Operation_MUX #(size) ALU10(ADD_result, SUB, MULT, OR, AND_result, XOR, RS, LS, RR, OP, R1, insta); 
+
+
+assign flags = add_flag & cmp_flag;
+
+endmodule 
+
+  
+  

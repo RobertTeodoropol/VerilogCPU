@@ -1,0 +1,342 @@
+vsim Project1.CPU_TestBeench
+# vsim Project1.CPU_TestBeench 
+# Start time: 11:43:00 on Nov 29,2017
+# Loading Project1.CPU_TestBeench
+# Loading Project1.CPU
+# Loading Project1.fetch
+# Loading Project1.rom_project
+# Loading Project1.Decoder
+# Loading Project1.Register_Bank
+# Loading Project1.Register
+# Loading Project1.Operand_multiplexer
+# Loading Project1.ALU
+# Loading Project1.Add
+# Loading Project1.Subtract
+# Loading Project1.MULT
+# Loading Project1.parameterized_bitwise_or
+# Loading Project1.AND
+# Loading Project1.XOR
+# Loading Project1.shiftRight
+# Loading Project1.shiftLeft
+# Loading Project1.Parameterized_ROR
+# Loading Project1.CMP
+# Loading Project1.Operation_MUX
+run
+# Test my CPU
+#                    0 result= xxxxxxxxxxxxxxxx
+#                    7 result= 0000000010101010
+#                   30 pc = 0001
+#                   30 result= 0000000000100010
+#                   90 pc = 0010
+#                   90 result= 0000000011001100
+#                  150 pc = 0011
+#                  150 result= 0000001000100000
+#                  210 pc = 0100
+#                  210 result= 0000000000000100
+#                  270 pc = 0101
+#                  270 result= xxxxxxxxxxxxxxxx
+#                  330 pc = 0110
+#                  390 pc = 0111
+#                  450 pc = 1000
+quit -sim
+# Compile of Adder.v was successful.
+# Compile of ALU TestBench.v was successful.
+# Compile of ALU.v was successful.
+# Compile of AND.v was successful.
+# Compile of CLAtb.v was successful.
+# Compile of CMP.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPU_TestBench.v was successful.
+# Compile of DecoderTest.v was successful.
+# Compile of Decoding.v was successful.
+# Compile of Fetch.v was successful.
+# Compile of MULT.v was successful.
+# Compile of MULT_tb.v was successful.
+# Compile of Operand_multiplexer.v was successful.
+# Compile of Operand_Multiplexer_TB.v was successful.
+# Compile of Operation_MUX.v was successful.
+# Compile of Operation_MUX_TB.v was successful.
+# Compile of Parameterized_Bitwise_OR.v was successful.
+# Compile of Parameterized_Bitwise_OR_test.v was successful.
+# Compile of Parameterized_ROR.v was successful.
+# Compile of Parameterized_ROR_Test.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register-Bank.v was successful.
+# Compile of RegisterBankTB.v was successful.
+# Compile of rom_project.v was successful.
+# Compile of ShiftLeft.v was successful.
+# Compile of ShiftLeftTest.v was successful.
+# Compile of ShiftRight.v was successful.
+# Compile of ShiftRightTest.v was successful.
+# Compile of Subtractor.v was successful.
+# Compile of Test_Add.v was successful.
+# Compile of testb_rom.v was successful.
+# Compile of TestSubtract.v was successful.
+# Compile of xor.v was successful.
+# Compile of xor_tb.v was successful.
+# 35 compiles, 0 failed with no errors.
+vsim Project1.CPU_TestBeench
+# vsim Project1.CPU_TestBeench 
+# Start time: 11:49:33 on Nov 29,2017
+# Loading Project1.CPU_TestBeench
+# Loading Project1.CPU
+# Loading Project1.fetch
+# Loading Project1.rom_project
+# Loading Project1.Decoder
+# Loading Project1.Register_Bank
+# Loading Project1.Register
+# Loading Project1.Operand_multiplexer
+# Loading Project1.ALU
+# Loading Project1.Add
+# Loading Project1.Subtract
+# Loading Project1.MULT
+# Loading Project1.parameterized_bitwise_or
+# Loading Project1.AND
+# Loading Project1.XOR
+# Loading Project1.shiftRight
+# Loading Project1.shiftLeft
+# Loading Project1.Parameterized_ROR
+# Loading Project1.CMP
+# Loading Project1.Operation_MUX
+run
+# Test my CPU
+#                    0 result= xxxxxxxxxxxxxxxx
+#                    7 result= 0000000010101010
+#                   30 pc = 0001
+#                   30 result= 0000000000100010
+#                   90 pc = 0010
+#                   90 result= 0000000000100010
+#                  150 pc = 0011
+#                  150 result= 0000001000100000
+#                  210 pc = 0100
+#                  210 result= 0000000000000100
+#                  270 pc = 0101
+#                  270 result= xxxxxxxxxxxxxxxx
+#                  330 pc = 0110
+#                  390 pc = 0111
+#                  450 pc = 1000
+quit -sim
+vsim Project1.CPU_TestBeench
+# vsim Project1.CPU_TestBeench 
+# Start time: 11:51:37 on Nov 29,2017
+# Loading Project1.CPU_TestBeench
+# Loading Project1.CPU
+# Loading Project1.fetch
+# Loading Project1.rom_project
+# Loading Project1.Decoder
+# Loading Project1.Register_Bank
+# Loading Project1.Register
+# Loading Project1.Operand_multiplexer
+# Loading Project1.ALU
+# Loading Project1.Add
+# Loading Project1.Subtract
+# Loading Project1.MULT
+# Loading Project1.parameterized_bitwise_or
+# Loading Project1.AND
+# Loading Project1.XOR
+# Loading Project1.shiftRight
+# Loading Project1.shiftLeft
+# Loading Project1.Parameterized_ROR
+# Loading Project1.CMP
+# Loading Project1.Operation_MUX
+run
+# Test my CPU
+#                    0 result= xxxxxxxxxxxxxxxx
+#                    7 result= 0000000010101010
+#                   30 pc = 0001
+#                   30 result= 0000000000100010
+#                   90 pc = 0010
+#                   90 result= 0000000000100010
+#                  150 pc = 0011
+#                  150 result= 0000001000100000
+#                  210 pc = 0100
+#                  210 result= 0000000000000100
+#                  270 pc = 0101
+#                  270 result= xxxxxxxxxxxxxxxx
+#                  330 pc = 0110
+#                  390 pc = 0111
+#                  450 pc = 1000
+quit -sim
+# Compile of CPU_TestBench.v was successful.
+vsim Project1.CPU_TestBeench
+# vsim Project1.CPU_TestBeench 
+# Start time: 11:52:21 on Nov 29,2017
+# Loading Project1.CPU_TestBeench
+# Loading Project1.CPU
+# Loading Project1.fetch
+# Loading Project1.rom_project
+# Loading Project1.Decoder
+# Loading Project1.Register_Bank
+# Loading Project1.Register
+# Loading Project1.Operand_multiplexer
+# Loading Project1.ALU
+# Loading Project1.Add
+# Loading Project1.Subtract
+# Loading Project1.MULT
+# Loading Project1.parameterized_bitwise_or
+# Loading Project1.AND
+# Loading Project1.XOR
+# Loading Project1.shiftRight
+# Loading Project1.shiftLeft
+# Loading Project1.Parameterized_ROR
+# Loading Project1.CMP
+# Loading Project1.Operation_MUX
+run
+# Test my CPU
+#                    0 result= xxxxxxxxxxxxxxxx
+#                    7 result= 0000000010101010
+#                   30 pc = 0001
+#                   30 result= 0000000000100010
+#                   90 pc = 0010
+#                   90 result= 0000000011001100
+#                  150 pc = 0011
+#                  150 result= 0000001000100000
+#                  210 pc = 0100
+#                  210 result= 0000000000000100
+#                  270 pc = 0101
+#                  270 result= xxxxxxxxxxxxxxxx
+#                  330 pc = 0110
+#                  390 pc = 0111
+#                  450 pc = 1000
+quit -sim
+# Compile of Adder.v was successful.
+# Compile of ALU TestBench.v was successful.
+# Compile of ALU.v was successful.
+# Compile of AND.v was successful.
+# Compile of CLAtb.v was successful.
+# Compile of CMP.v was successful.
+# Compile of CPU.v was successful.
+# Compile of CPU_TestBench.v was successful.
+# Compile of DecoderTest.v was successful.
+# Compile of Decoding.v was successful.
+# Compile of Fetch.v was successful.
+# Compile of MULT.v was successful.
+# Compile of MULT_tb.v was successful.
+# Compile of Operand_multiplexer.v was successful.
+# Compile of Operand_Multiplexer_TB.v was successful.
+# Compile of Operation_MUX.v was successful.
+# Compile of Operation_MUX_TB.v was successful.
+# Compile of Parameterized_Bitwise_OR.v was successful.
+# Compile of Parameterized_Bitwise_OR_test.v was successful.
+# Compile of Parameterized_ROR.v was successful.
+# Compile of Parameterized_ROR_Test.v was successful.
+# Compile of Register.v was successful.
+# Compile of Register-Bank.v was successful.
+# Compile of RegisterBankTB.v was successful.
+# Compile of rom_project.v was successful.
+# Compile of ShiftLeft.v was successful.
+# Compile of ShiftLeftTest.v was successful.
+# Compile of ShiftRight.v was successful.
+# Compile of ShiftRightTest.v was successful.
+# Compile of Subtractor.v was successful.
+# Compile of Test_Add.v was successful.
+# Compile of testb_rom.v was successful.
+# Compile of TestSubtract.v was successful.
+# Compile of xor.v was successful.
+# Compile of xor_tb.v was successful.
+# 35 compiles, 0 failed with no errors.
+vsim Project1.CPU_TestBeench
+# vsim Project1.CPU_TestBeench 
+# Start time: 12:01:02 on Nov 29,2017
+# Loading Project1.CPU_TestBeench
+# Loading Project1.CPU
+# Loading Project1.fetch
+# Loading Project1.rom_project
+# Loading Project1.Decoder
+# Loading Project1.Register_Bank
+# Loading Project1.Register
+# Loading Project1.Operand_multiplexer
+# Loading Project1.ALU
+# Loading Project1.Add
+# Loading Project1.Subtract
+# Loading Project1.MULT
+# Loading Project1.parameterized_bitwise_or
+# Loading Project1.AND
+# Loading Project1.XOR
+# Loading Project1.shiftRight
+# Loading Project1.shiftLeft
+# Loading Project1.Parameterized_ROR
+# Loading Project1.CMP
+# Loading Project1.Operation_MUX
+run
+# Test my CPU
+#                    0 result= xxxxxxxxxxxxxxxx
+#                    3 cond = 00, opcode = 1010, reg_dest = 010, reg_1 = 000, reg_2 = 000, shift_bit = 0000
+#                    7 result= 0000000010101010
+#                   30 pc = 0001
+#                   30 cond = 00, opcode = 1010, reg_dest = 011, reg_1 = 000, reg_2 = 000, shift_bit = 0000
+#                   30 result= 0000000000100010
+#                   90 pc = 0010
+#                   90 cond = 11, opcode = 0000, reg_dest = 001, reg_1 = 010, reg_2 = 011, shift_bit = 0110
+#                   90 result= 0000000011001100
+#                  150 pc = 0011
+#                  150 cond = 11, opcode = 0111, reg_dest = 010, reg_1 = 011, reg_2 = 010, shift_bit = 0100
+#                  150 result= 0000001000100000
+#                  210 pc = 0100
+#                  210 cond = 11, opcode = 0110, reg_dest = 010, reg_1 = 011, reg_2 = 001, shift_bit = 0011
+#                  210 result= 0000000000000100
+#                  270 pc = 0101
+#                  270 cond = xx, opcode = xxxx, reg_dest = xxx, reg_1 = xxx, reg_2 = xxx, shift_bit = xxxx
+#                  270 result= xxxxxxxxxxxxxxxx
+#                  330 pc = 0110
+#                  390 pc = 0111
+#                  450 pc = 1000
+restart
+run
+# Test my CPU
+#                    0 result= xxxxxxxxxxxxxxxx
+#                    3 cond = 00, opcode = 1010, reg_dest = 010, reg_1 = 000, reg_2 = 000, shift_bit = 0000
+#                    7 result= 0000000010101010
+#                   30 pc = 0001
+#                   30 cond = 00, opcode = 1010, reg_dest = 011, reg_1 = 000, reg_2 = 000, shift_bit = 0000
+#                   30 result= 0000000000100010
+#                   90 pc = 0010
+#                   90 cond = 11, opcode = 0000, reg_dest = 001, reg_1 = 010, reg_2 = 011, shift_bit = 0110
+#                   90 result= 0000000011001100
+#                  150 pc = 0011
+#                  150 cond = 11, opcode = 0111, reg_dest = 010, reg_1 = 011, reg_2 = 010, shift_bit = 0100
+#                  150 result= 0000001000100000
+#                  210 pc = 0100
+#                  210 cond = 11, opcode = 0110, reg_dest = 010, reg_1 = 011, reg_2 = 001, shift_bit = 0011
+#                  210 result= 0000000000000100
+quit -sim
+vsim Project1.CPU_TestBeench
+# vsim Project1.CPU_TestBeench 
+# Start time: 12:10:18 on Nov 29,2017
+# Loading Project1.CPU_TestBeench
+# Loading Project1.CPU
+# Loading Project1.fetch
+# Loading Project1.rom_project
+# Loading Project1.Decoder
+# Loading Project1.Register_Bank
+# Loading Project1.Register
+# Loading Project1.Operand_multiplexer
+# Loading Project1.ALU
+# Loading Project1.Add
+# Loading Project1.Subtract
+# Loading Project1.MULT
+# Loading Project1.parameterized_bitwise_or
+# Loading Project1.AND
+# Loading Project1.XOR
+# Loading Project1.shiftRight
+# Loading Project1.shiftLeft
+# Loading Project1.Parameterized_ROR
+# Loading Project1.CMP
+# Loading Project1.Operation_MUX
+run
+# Test my CPU
+#                    0 result= xxxxxxxxxxxxxxxx
+#                    3 cond = 00, opcode = 1010, reg_dest = 010, reg_1 = 000, reg_2 = 000, shift_bit = 0000
+#                    7 result= 0000000010101010
+#                   30 pc = 0001
+#                   30 cond = 00, opcode = 1010, reg_dest = 011, reg_1 = 000, reg_2 = 000, shift_bit = 0000
+#                   30 result= 0000000000100010
+#                   90 pc = 0010
+#                   90 cond = 11, opcode = 0000, reg_dest = 001, reg_1 = 010, reg_2 = 011, shift_bit = 0110
+#                   90 result= 0000000011001100
+#                  150 pc = 0011
+#                  150 cond = 11, opcode = 0111, reg_dest = 010, reg_1 = 011, reg_2 = 010, shift_bit = 0100
+#                  150 result= 0000001000100000
+#                  210 pc = 0100
+#                  210 cond = 11, opcode = 0110, reg_dest = 010, reg_1 = 011, reg_2 = 001, shift_bit = 0011
+#                  210 result= 0000000000000100

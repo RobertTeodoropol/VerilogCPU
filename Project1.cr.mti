@@ -1,0 +1,239 @@
+{D:/ubc/ENGR 468/Project/Milestone2/ALU TestBench.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/ALU TestBench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_Testbench
+
+Top level modules:
+	ALU_Testbench
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Fetch.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Fetch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/MULT.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/MULT.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MULT
+
+Top level modules:
+	MULT
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/ShiftRightTest.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/ShiftRightTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ShiftRight_Test
+
+Top level modules:
+	ShiftRight_Test
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/rom_project.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/rom_project.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module rom_project
+
+Top level modules:
+	rom_project
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Register.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Register.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/xor_tb.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/xor_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Test_XOR
+
+Top level modules:
+	Test_XOR
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Register-Bank.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Register-Bank.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register_Bank
+
+Top level modules:
+	Register_Bank
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_ROR_Test.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_ROR_Test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Parameterized_ROR_Test
+
+Top level modules:
+	Parameterized_ROR_Test
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/RegisterBankTB.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/RegisterBankTB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register_Bank_Testbench
+
+Top level modules:
+	Register_Bank_Testbench
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_ROR.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_ROR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Parameterized_ROR
+
+Top level modules:
+	Parameterized_ROR
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/MULT_tb.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/MULT_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Test_MULT
+
+Top level modules:
+	Test_MULT
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/TestSubtract.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/TestSubtract.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Test_Subtract
+
+Top level modules:
+	Test_Subtract
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Operand_Multiplexer_TB.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Operand_Multiplexer_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Operand_Multiplexer_TB
+
+Top level modules:
+	Operand_Multiplexer_TB
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/xor.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/xor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module XOR
+
+Top level modules:
+	XOR
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Subtractor.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Subtractor.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Subtract
+
+Top level modules:
+	Subtract
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/ShiftLeftTest.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/ShiftLeftTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ShiftLeft_Test
+
+Top level modules:
+	ShiftLeft_Test
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_Bitwise_OR_test.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_Bitwise_OR_test.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Test_Parameterized_Bitwise_OR
+
+Top level modules:
+	Test_Parameterized_Bitwise_OR
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Operation_MUX.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Operation_MUX.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Operation_MUX
+
+Top level modules:
+	Operation_MUX
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/ALU.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_Bitwise_OR.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Parameterized_Bitwise_OR.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module parameterized_bitwise_or
+
+Top level modules:
+	parameterized_bitwise_or
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Operand_multiplexer.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Operand_multiplexer.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Operand_multiplexer
+
+Top level modules:
+	Operand_multiplexer
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/AND.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/AND.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AND
+
+Top level modules:
+	AND
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/ShiftRight.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/ShiftRight.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shiftRight
+
+Top level modules:
+	shiftRight
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/CLAtb.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/CLAtb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CLAtb
+
+Top level modules:
+	CLAtb
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/DecoderTest.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/DecoderTest.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Decoder_test
+
+Top level modules:
+	Decoder_test
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/CPU_TestBench.v} {1 {vlog -work Project1 -stats=none {D:\ubc\ENGR 468\Project\Milestone2\CPU_TestBench.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPU_TestBeench
+
+Top level modules:
+	CPU_TestBeench
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/testb_rom.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/testb_rom.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Test_ROM
+
+Top level modules:
+	Test_ROM
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Operation_MUX_TB.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Operation_MUX_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Operation_MUX_TB
+
+Top level modules:
+	Operation_MUX_TB
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Test_Add.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Test_Add.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Test_Add
+
+Top level modules:
+	Test_Add
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/Adder.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/Adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Add
+
+Top level modules:
+	Add
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/CMP.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/CMP.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CMP
+
+Top level modules:
+	CMP
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/CPU.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/CPU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} {D:/ubc/ENGR 468/Project/Milestone2/ShiftLeft.v} {1 {vlog -work Project1 -stats=none {D:/ubc/ENGR 468/Project/Milestone2/ShiftLeft.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shiftLeft
+
+Top level modules:
+	shiftLeft
+
+} {} {}}

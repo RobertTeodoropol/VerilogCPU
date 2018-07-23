@@ -1,0 +1,39 @@
+module Operation_MUX(ADD, SUB, MULT, OR, AND, XOR, RS, LS, RR, opcode, result, insta);
+parameter N=16;
+input [(N-1):0] ADD, SUB, MULT, OR, AND, XOR, RS, LS, RR, insta;
+input [3:0] opcode;
+output [(N-1):0] result;
+reg [(N-1):0] result;
+
+always @ (*)
+case(opcode)
+4'b0000:
+	result = ADD;
+4'b0001:
+	result = SUB;
+4'b0010:
+	result = MULT;
+4'b0011:
+	result = OR;
+4'b0100:
+	result = AND;
+4'b0101:
+	result = XOR;
+4'b0110:
+	result = RS;
+4'b0111:
+	result = LS;
+4'b1000:
+	result = RR;
+4'b1001:
+	result = result;
+4'b1010:
+	result = insta;
+default:
+	result = 32'hxxxx;
+endcase
+
+endmodule
+
+
+

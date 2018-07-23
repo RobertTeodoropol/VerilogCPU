@@ -1,0 +1,18 @@
+module Parameterized_ROR(i0, shift, result); //n-bit register that rotates right by m bits
+  parameter n = 16;
+  input [3:0] shift;
+  input [n-1:0] i0;
+  output reg [n-1:0] result;
+  reg m;
+ integer i;
+always @(shift)
+begin
+for(i=0; i<shift; i = i+1)
+begin
+ m = result[0];
+ result = result >> 1;
+result = {m , result[n-2:0]};
+end
+
+end
+endmodule 
